@@ -1,4 +1,4 @@
-package com.elong.hotel.quan;
+package net.leezw.lineparser;
 
 
 public interface ObjParser<T> {

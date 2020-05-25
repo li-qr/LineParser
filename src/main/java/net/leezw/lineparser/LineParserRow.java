@@ -1,6 +1,6 @@
-package com.elong.hotel.LineParser;
+package net.leezw.lineparser.LineParser;
 
-import com.elong.hotel.LineParser.exception.ParserException;
+import net.leezw.lineparser.exception.ParserException;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

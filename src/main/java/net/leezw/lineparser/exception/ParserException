@@ -1,0 +1,19 @@
+package com.elong.hotel.quan.exception;
+
+import com.elong.hotel.quan.Quan;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class ParserException extends RuntimeException {
+    private static final long serialVersionUID = 9005532840145911446L;
+    private static final Logger logger = LoggerFactory.getLogger(Quan.LOGGER);
+
+    public ParserException(String message){
+        super(message);
+        logger.error("类型转换失败。{}",message);
+    }
+    public ParserException(String message,Class cl,String s){
+        super("不能把 "+message+" 转换为类型"+cl.toString());
+        logger.error("不能把 {} 转换为类型{}。{}",message,cl.toString(),s);
+    }
+}

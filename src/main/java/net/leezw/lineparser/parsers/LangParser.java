@@ -1,6 +1,6 @@
-package com.elong.hotel.quan.parsers;
+package net.leezw.lineparser.parsers;
 
-import com.elong.hotel.quan.ObjParser;
+import net.leezw.lineparser.ObjParser;
 
 import java.io.Serializable;
 

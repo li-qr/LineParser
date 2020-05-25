@@ -1,12 +1,12 @@
-package com.elong.hotel.quan.exception;
+package net.leezw.lineparser.exception;
 
-import com.elong.hotel.quan.Quan;
+import net.leezw.lineparser.LineParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ParserException extends RuntimeException {
     private static final long serialVersionUID = 9005532840145911446L;
-    private static final Logger logger = LoggerFactory.getLogger(Quan.LOGGER);
+    private static final Logger logger = LoggerFactory.getLogger(LineParser.LOGGER);
 
     public ParserException(String message){
         super(message);

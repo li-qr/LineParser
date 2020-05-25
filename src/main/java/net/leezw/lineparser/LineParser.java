@@ -1,7 +1,7 @@
-package com.elong.hotel.LineParser;
+package net.leezw.lineparser.LineParser;
 
-import com.elong.hotel.LineParser.exception.FileCanNotOpenException;
-import com.elong.hotel.LineParser.exception.ParserException;
+import net.leezw.lineparser.exception.FileCanNotOpenException;
+import net.leezw.lineparser.exception.ParserException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
